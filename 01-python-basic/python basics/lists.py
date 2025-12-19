@@ -10,6 +10,9 @@ print(fruits)
 
 fruits[0] = "pineapple"
 fruits[2] = "mango"
+
+#So, this line of code effectively adds "honda" to the beginning of your cars list,
+# shifting all existing elements one position to the right.
 fruits.insert(1,"grapes")
 print(fruits)
 
