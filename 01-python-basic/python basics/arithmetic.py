@@ -4,7 +4,7 @@
 #             = / division (returns a float)
 #             = // integer division (returns an integer)
 #             = % remainder
-
+#             = ** power
 friends = 5
 
 friends += 1                                 #augmented assignment operator    friends += 1 means friends = friends + 1
@@ -23,3 +23,7 @@ remaining_friends = friends % 3
 
 
 print(friends)
+
+a = 3
+b = 2
+print(a**b)
