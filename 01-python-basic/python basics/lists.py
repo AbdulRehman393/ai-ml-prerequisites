@@ -10,6 +10,8 @@ print(fruits)
 
 fruits[0] = "pineapple"
 fruits[2] = "mango"
+fruits.insert(1,"grapes")
+print(fruits)
 
 # We can append elements using append method
 fruits.append("strawberry")
