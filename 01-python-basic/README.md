@@ -1,59 +1,87 @@
 # 🐍 Python Basics | AI & ML Prerequisites
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/AbdulRehman393/ai-ml-prerequisites?style=for-the-badge)
 
 ## 📖 Overview
 
-Welcome to the **Python Basics** module. This directory serves as the foundational pillar for the **AI-ML Prerequisites** roadmap. 
+Welcome to the **Python Basics** module—the foundational pillar for the **AI-ML Prerequisites** roadmap. 
 
-Before diving into complex algorithms and neural networks, a solid grasp of Python syntax, data structures, and control flow is essential. These scripts cover the core concepts required to manipulate data effectively.
-
----
-
-## 📂 Code Dictionary
-
-The scripts are organized by concept. Below is a breakdown of what each file demonstrates:
-
-### 1. Core Syntax & Operations
-| File Name | Description | Key Concepts |
-| :--- | :--- | :--- |
-| `variable.py` | Introduction to storing data. | Variable assignment, naming conventions. |
-| `typecasting.py` | Converting between data types. | `int()`, `str()`, `float()`. |
-| `user_input.py` | Handling dynamic user interaction. | `input()` function. |
-| `arithmetic.py` | Mathematical computations. | `+`, `-`, `*`, `/`, `%` (modulus). |
-| `main.py` | Main entry point script. | Script execution flow. |
-
-### 2. Control Flow & Logic
-| File Name | Description | Key Concepts |
-| :--- | :--- | :--- |
-| `if_statements.py` | Conditional decision making. | `if`, `elif`, `else`. |
-| `logical_operators.py` | Combining conditional logic. | `and`, `or`, `not`. |
-| `for_loop.py` | Iterating over sequences. | Definite iteration, ranges. |
-| `while_loops.py` | Iterating based on conditions. | Indefinite iteration. |
-
-### 3. Data Structures
-| File Name | Description | Key Concepts |
-| :--- | :--- | :--- |
-| `lists.py` | Mutable sequences of items. | Indexing, slicing, appending. |
-| `tuple.py` | Immutable sequences. | Fixed data collections. |
-| `Set.py` | Unordered collections of unique elements. | Deduplication, set operations. |
-
-### 4. Mini-Projects
-| File Name | Description |
-| :--- | :--- |
-| `count_down_timer.py` | A simple logic application using loops and the `time` module to create a countdown. |
+Before diving into complex algorithms and neural networks, master Python syntax, data structures, and control flow. These scripts and notebooks cover essential concepts for effective data manipulation.
 
 ---
 
-## 🚀 How to Run
+## 📂 Contents
 
-Ensure you have Python installed. You can run any of these scripts individually via the terminal:
+### Core Syntax & Operations
+| File | Description | Concepts |
+|------|-------------|----------|
+| `variable.py` | Data storage basics | Variable assignment, naming |
+| `typecasting.py` | Type conversion | `int()`, `str()`, `float()` |
+| `user_input.py` | User interaction | `input()` function |
+| `arithmetic.py` | Math operations | `+`, `-`, `*`, `/`, `%` |
+| `main.py` | Entry point script | Execution flow |
 
+### Control Flow & Logic
+| File | Description | Concepts |
+|------|-------------|----------|
+| `if_statements.py` | Conditionals | `if`, `elif`, `else` |
+| `logical_operators.py` | Logic combinations | `and`, `or`, `not` |
+| `for_loop.py` | Sequence iteration | Definite loops, ranges |
+| `while_loops.py` | Conditional iteration | Indefinite loops |
+
+### Data Structures
+| File | Description | Concepts |
+|------|-------------|----------|
+| `lists.py` | Mutable sequences | Indexing, slicing, appending |
+| `tuple.py` | Immutable sequences | Fixed collections |
+| `Set.py` | Unique elements | Deduplication, set ops |
+
+### Interactive Practice
+| File | Description |
+|------|-------------|
+| `python_basics_practice.ipynb` | Interactive exercises and examples for hands-on practice |
+
+### Mini-Projects
+| File | Description |
+|------|-------------|
+| `count_down_timer.py` | Countdown timer using loops and `time` module |
+
+---
+
+## 🚀 Quick Start
+
+**Python Scripts:**
 ```bash
-# Example: Running the List demonstration
 python lists.py
-
-# Example: Running the Countdown Timer
 python count_down_timer.py
+```
+
+**Jupyter Notebook:**
+```bash
+pip install jupyter
+jupyter notebook
+# Open python_basics_practice.ipynb
+```
+
+---
+
+## 📚 Learning Path
+
+1. **Core Syntax** → Variables and operations
+2. **Control Flow** → Decision-making and loops
+3. **Data Structures** → Collections and storage
+4. **Interactive Practice** → Hands-on exercises
+5. **Mini-Projects** → Apply your knowledge
+
+---
+
+## 🎯 Prerequisites
+
+- Python 3.x
+- Jupyter Notebook (for `.ipynb`)
+
+---
+
+**Happy Learning! 🚀**
