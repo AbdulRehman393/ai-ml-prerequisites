@@ -14,4 +14,26 @@
 # the elements by 2. np.array([1,2,3]*2 = [2,4,6]
 # With a python list, multiplying list by two would  repeat all element twice
 # e.g., [1,2,3] *2 = [1,2,3,1,2,3]
+
 # Numpy gives you a speed and specialized tools need to handle largescale numerical operations efficiently.
+
+import numpy as np                  # For some convenience, we can give numpy a quick name or alias.
+
+# print(np.__version__)
+
+
+# In python
+# my_list = [1, 2, 3, 4]
+# my_list = my_list * 2        # Output:  [1,2,3,4,1,2,3,4]
+#
+# print(my_list)
+
+# A numpy array is superior to a Python list. It's faster and gives us more operation
+
+array = np.array([1, 2, 3, 4])
+array = array * 2
+
+print(array)
+
+# Just to verify that it is a numpy array
+print(type(array))   # <class 'numpy.ndarray'>  nd meaning and dimensional array
